@@ -1,0 +1,110 @@
+.destaques__titulo
+{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.destaques
+{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 250px);
+    text-align: center;
+    gap: 5px;
+}
+
+.destaques__principal 
+{
+    background-image: url(/assets/img/fortnite.jpg);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-size: cover;
+    background-position: top;
+}
+
+.destaques__secundario_pubg 
+{
+    background-image: url(/assets/img/pubg.jpg);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-size: cover;
+    background-position: center;
+}
+
+.destaques__secundario_slack
+{
+    background-image: url(/assets/img/slack.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.destaques__secundario_whatsapp
+{
+    background-image: url(/assets/img/whatsapp.png);
+    background-size: cover;
+    background-position: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.destaques__secundario_csGO 
+{
+    background-image: url(/assets/img/cs-go.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.destaques__categorias
+{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.destaques__categorias___lista
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 50%);
+    text-align: start;
+    height: 250px;  
+}
+
+.destaques__categorias___link
+{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 50px;
+    align-items: center;
+    height: 120px;
+    margin: 2px;
+    display: block;
+    color: black;
+}
+
+.destaques__titulo
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.caixa
+{
+    display: flex;
+    align-items: flex-end;
+}

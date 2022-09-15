@@ -1,0 +1,23 @@
+.app
+{
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 30px auto 30px;
+}
+
+.cabecalho
+{
+    display: flex;
+}
+ 
+.conteudo
+{
+    margin-top: 15px;
+}
+
+.rodape
+{
+    text-align: center;
+    margin: 10px;
+}

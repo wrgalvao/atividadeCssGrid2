@@ -1,0 +1,13 @@
+.ativo
+{
+    padding-bottom: 5px;
+    border-bottom: solid 2px blue;
+    margin-right: 20px;
+    color: black;
+}
+
+.menu__link
+{
+    margin-right: 20px;
+    color: black;
+}

@@ -17,7 +17,7 @@
 
 .destaques__principal 
 {
-    background-image: url(/assets/img/fortnite.jpg);
+    background-image: url(../assets/img/fortnite.jpg);
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -28,7 +28,7 @@
 
 .destaques__secundario_pubg 
 {
-    background-image: url(/assets/img/pubg.jpg);
+    background-image: url(../assets/img/pubg.jpg);
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 4;
@@ -39,7 +39,7 @@
 
 .destaques__secundario_slack
 {
-    background-image: url(/assets/img/slack.png);
+    background-image: url(../assets/img/slack.png);
     background-size: cover;
     background-position: center;
     grid-row-start: 2;
@@ -50,7 +50,7 @@
 
 .destaques__secundario_whatsapp
 {
-    background-image: url(/assets/img/whatsapp.png);
+    background-image: url(../assets/img/whatsapp.png);
     background-size: cover;
     background-position: center;
     grid-row-start: 3;
@@ -61,7 +61,7 @@
 
 .destaques__secundario_csGO 
 {
-    background-image: url(/assets/img/cs-go.jpg);
+    background-image: url(../assets/img/cs-go.jpg);
     background-size: cover;
     background-position: center;
 }
